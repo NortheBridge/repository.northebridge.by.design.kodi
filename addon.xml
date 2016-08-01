@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.northebridge.by.design.kodi" name="NortheBridge by Design Repository" version="1.0.00" provider-name="NortheBridge">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="NortheBridge by Design Repository for Kodi">
+		<info compressed="false">https://embycdn.northebridge.com/Victorious/addons.xml</info>
+		<checksum>https://embycdn.northebridge.com/Victorious/addons.xml.md5</checksum>
+		<datadir zip="true">https://embycdn.northebridge.com/Victorious/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The NortheBridge by Design Repository for Kodi featuring addons such as Arctic Zephyr: From Ashes.</summary>
+		<description>Containing the Arctic Zephyr: From Ashes skin for Kodi as well as required and suggested addons to enhance the AZ:FA experience, the NortheBridge by Design Repository is an exclusive and carefully curated repository intended for use with Arctic Zephyr: From Ashes.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
