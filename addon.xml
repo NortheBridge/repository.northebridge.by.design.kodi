@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.northebridge.by.design.kodi" name="NortheBridge by Design Repository" version="2.0.00" provider-name="NortheBridge">
+<addon id="repository.northebridge.by.design.kodi" name="NortheBridge by Design Repository" version="20.0.00" provider-name="NortheBridge">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
 	<extension point="xbmc.addon.repository" name="NortheBridge by Design Repository for Kodi">
-		<info compressed="false">https://embycdn.northebridge.com/NatalieDormer/addons.xml</info>
+		<info compressed="false">https://edgecdn.northebridge.com/repositories/apps/kodi-cdn/addons.xml</info>
 		<checksum>https://embycdn.northebridge.com/NatalieDormer/addons.xml.md5</checksum>
 		<datadir zip="true">https://embycdn.northebridge.com/NatalieDormer/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>The NortheBridge by Design Repository for Kodi featuring addons such as Arctic Zephyr: From Ashes Danvers and Arctic Zephyr: For Another Age.</summary>
-		<description>Containing the Arctic Zephyr: For Another Age skin and Arctic Zephyr: From Ashes skin for Kodi as well as required and suggested addons to enhance the AZ:FA experience, the NortheBridge by Design Repository is an exclusive and carefully curated repository intended for use with From Ashes Project releases.</description>
-		<disclaimer>For Kodi 17 Krypton or later. Maintained by NortheBridge Enterprises, LLC.</disclaimer>
+		<summary>The NortheBridge by Design Repository for Kodi features addons such as the acclaimed Arctic Zephyr: From Ashes and upcoming Arctic Zephyr: Generations.</summary>
+		<description>The NortheBridge by Design Repository is an exclusive repo curated to contain Arctic Zephyr: Generations and its predecessor, Arctic Zephyr: From Ashes, as well as related enhancements and compatability addons to help build on the AZ:GEN and AZ:FA experience.</description>
+		<disclaimer>Compatible with Kodi 18 or later. Intended for Use with "Arctic Zephyr: Generations." Maintained by NortheBridge North America, L.L.C.</disclaimer>
 		<platform>all</platform>
 	</extension>
 </addon>
